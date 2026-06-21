@@ -1,0 +1,31 @@
+/* assets/css/dark-mode.css — Dark theme overrides */
+
+body.dark-mode {
+  --bg:          #0f1611;
+  --surface:     #1a2420;
+  --sidebar-bg:  #141d1a;
+  --border:      #2a3830;
+  --text-primary:#e8f5f1;
+  --text-muted:  #8fa89e;
+  --text-light:  #556b62;
+  --teal-light:  #0d2b22;
+  --shadow:      0 2px 12px rgba(0,0,0,.35);
+  --shadow-lg:   0 8px 32px rgba(0,0,0,.55);
+}
+
+body.dark-mode .landing { background: var(--bg); }
+body.dark-mode .landing-nav { background: var(--surface); }
+body.dark-mode .hero-preview { background: var(--surface); }
+
+body.dark-mode .auth-page { background: var(--bg); }
+body.dark-mode .auth-card { background: var(--surface); }
+body.dark-mode .auth-tabs { background: #0d1d18; }
+body.dark-mode .auth-tab.active { background: var(--surface); }
+body.dark-mode .btn-google { background: var(--surface); color: var(--text-primary); }
+
+body.dark-mode .task-item { background: var(--surface); }
+body.dark-mode .mini-task { background: #101a16; }
+body.dark-mode .topbar { background: var(--surface); }
+body.dark-mode .modal { background: var(--surface); }
+body.dark-mode .filter-tab { background: transparent; color: var(--text-muted); }
+body.dark-mode .filter-tab.active { background: var(--teal); color: #fff; }
